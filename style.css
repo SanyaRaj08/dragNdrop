@@ -84,4 +84,25 @@ body{
   background-color: purple;
 }
 
+/* responsiveness to website */
+
+@media screen  and (max-width:475px){
+  .container{
+    width: 100%;
+    height: 150vh;
+    background: rgb(14, 14, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #resetButton {
+    background-color: rgb(163, 23, 23);
+    color: aliceblue;
+    margin-top: 10px;
+    border: solid black;
+    width: 200px;
+    height: 30px;
+  }
+}
 
